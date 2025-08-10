@@ -1,1 +1,7 @@
 *.log
+debian/debhelper-build-stamp
+debian/files
+debian/linky-reader
+debian/linky-reader.postrm.debhelper
+debian/linky-reader.service
+debian/linky-reader.substvars

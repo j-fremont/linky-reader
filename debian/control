@@ -1,0 +1,12 @@
+Source: linky-reader
+Section: non-free
+Priority: optional
+Maintainer: Jerome FREMONT <j.fremont@sfr.fr>
+Standards-Version: 1.0.0
+Build-Depends: debhelper-compat (= 13)
+
+Package: linky-reader
+Architecture: any
+Depends: bash, procps, logrotate
+Description: Lecture d'un compteur Linky.
+

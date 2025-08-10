@@ -1,0 +1,18 @@
+#!/bin/bash
+
+set -e
+
+linky_read_path=/opt/linky_read
+
+if [[ $1 == "remove" ]]; then
+    
+    echo "==> Suppression des fichiers linky_read"
+    
+    if [ -d "$linky_read_path" ]; then
+        echo "Suppression du dossier d'installation: $linky_read_path"
+        rm -rf "$linky_read_path"
+    fi
+fi
+
+echo "==> Désinstallation terminée."
+
