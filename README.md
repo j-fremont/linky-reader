@@ -1,6 +1,6 @@
 Lecture des informations de la TIC d'un compteur Linky avec un module PITInfo installé sur un Raspberry Pi Zéro W, et écriture des données dans InfluxDB.
 
-![PITInfo](pîctures/PITInfo.jpg)
+![PITInfo](pictures/PITInfo.jpg)
 
 Lancer.
 
