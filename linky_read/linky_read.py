@@ -13,7 +13,7 @@ def main():
       iinst = 0
       nb_iinst = 0
 
-      finish = datetime.now() + timedelta(seconds=60)
+      finish = datetime.now() + timedelta(seconds=600)
 
       while datetime.now() < finish:
 
@@ -26,7 +26,7 @@ def main():
           base = int(line.split(' ')[1])
 
       if datetime.now().hour==2 and datetime.now().minute==0:
-        data="elec iinst=" + str(round(iinst/nb_iinst, 2)) + "\nbase=" + str(base)
+        data="elec iinst=" + str(round(iinst/nb_iinst, 2)) + "\nelec base=" + str(base)
       else:
         data="elec iinst=" + str(round(iinst/nb_iinst, 2))
 
